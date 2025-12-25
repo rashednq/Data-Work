@@ -1,11 +1,18 @@
 {
-  "timestamp_utc": "2025-12-23T12:41:37.782951+00:00",
-  "rows": {
-    "orders": 5,
-    "users": 4
-  },
-  "outputs": {
-    "orders": "C:\\Users\\rashe\\OneDrive\\\u0633\u0637\u062d \u0627\u0644\u0645\u0643\u062a\u0628\\SDAIA_Ai\\AiWeekTow\\data\\processed\\orders_clean.parquet",
-    "users": "C:\\Users\\rashe\\OneDrive\\\u0633\u0637\u062d \u0627\u0644\u0645\u0643\u062a\u0628\\SDAIA_Ai\\AiWeekTow\\data\\processed\\users.parquet"
+  "rows_in_orders_raw": 5,
+  "rows_in_users": 4,
+  "rows_out_analytics": 5,
+  "missing_created_at": 0,
+  "country_match_rate": 1.0,
+  "config": {
+    "paths": {
+      "root": "C:\\Users\\rashe\\OneDrive\\\u0633\u0637\u062d \u0627\u0644\u0645\u0643\u062a\u0628\\SDAIA_Ai\\AiWeekTow",
+      "raw": "C:\\Users\\rashe\\OneDrive\\\u0633\u0637\u062d \u0627\u0644\u0645\u0643\u062a\u0628\\SDAIA_Ai\\AiWeekTow\\data\\raw",
+      "cache": "C:\\Users\\rashe\\OneDrive\\\u0633\u0637\u062d \u0627\u0644\u0645\u0643\u062a\u0628\\SDAIA_Ai\\AiWeekTow\\data\\cache",
+      "processed": "C:\\Users\\rashe\\OneDrive\\\u0633\u0637\u062d \u0627\u0644\u0645\u0643\u062a\u0628\\SDAIA_Ai\\AiWeekTow\\data\\processed",
+      "external": "C:\\Users\\rashe\\OneDrive\\\u0633\u0637\u062d \u0627\u0644\u0645\u0643\u062a\u0628\\SDAIA_Ai\\AiWeekTow\\data\\external"
+    },
+    "orders_csv": "orders.csv",
+    "users_csv": "users.csv"
   }
 }
